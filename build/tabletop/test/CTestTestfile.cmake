@@ -1,0 +1,11 @@
+# CMake generated Testfile for 
+# Source directory: /home/victor/catkin_ws/src/tabletop/test
+# Build directory: /home/victor/catkin_ws/build/tabletop/test
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(object_recognition_tabletop_/home/victor/catkin_ws/src/tabletop/test/../conf/detection.table.ros.ork "/home/victor/catkin_ws/devel/share/object_recognition_core/cmake/../test/run_test.sh" "/home/victor/catkin_ws/devel/setup.sh" "/home/victor/catkin_ws/devel/share/object_recognition_core/cmake/../test/test_config.py -c /home/victor/catkin_ws/src/tabletop/test/../conf/detection.table.ros.ork")
+add_test(object_recognition_tabletop_/home/victor/catkin_ws/src/tabletop/test/../conf/detection.object.ros.ork "/home/victor/catkin_ws/devel/share/object_recognition_core/cmake/../test/run_test.sh" "/home/victor/catkin_ws/devel/setup.sh" "/home/victor/catkin_ws/devel/share/object_recognition_core/cmake/../test/test_config.py -c /home/victor/catkin_ws/src/tabletop/test/../conf/detection.object.ros.ork")
+add_test(object_recognition_tabletop_/home/victor/catkin_ws/src/tabletop/test/../conf/detection.object.ork "/home/victor/catkin_ws/devel/share/object_recognition_core/cmake/../test/run_test.sh" "/home/victor/catkin_ws/devel/setup.sh" "/home/victor/catkin_ws/devel/share/object_recognition_core/cmake/../test/test_config.py -c /home/victor/catkin_ws/src/tabletop/test/../conf/detection.object.ork")
+add_test(object_recognition_tabletop_/home/victor/catkin_ws/src/tabletop/test/../conf/detection.table.ork "/home/victor/catkin_ws/devel/share/object_recognition_core/cmake/../test/run_test.sh" "/home/victor/catkin_ws/devel/setup.sh" "/home/victor/catkin_ws/devel/share/object_recognition_core/cmake/../test/test_config.py -c /home/victor/catkin_ws/src/tabletop/test/../conf/detection.table.ork")
+add_test(object_recognition_tabletop_sink_TablePublisher "/home/victor/catkin_ws/devel/share/object_recognition_core/cmake/../test/run_test.sh" "/home/victor/catkin_ws/devel/setup.sh" "/home/victor/catkin_ws/devel/share/object_recognition_core/cmake/../test/test_sink.py TablePublisher object_recognition_tabletop {}")

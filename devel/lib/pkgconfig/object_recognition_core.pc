@@ -1,0 +1,8 @@
+prefix=/home/victor/catkin_ws/devel
+
+Name: object_recognition_core
+Description: Description of object_recognition_core
+Version: 0.6.7
+Cflags: -I/home/victor/catkin_ws/src/object_recognition_core/include
+Libs: -L/home/victor/catkin_ws/devel/lib -lobject_recognition_core_db -lobject_recognition_core_common
+Requires: sensor_msgs ecto

@@ -1,0 +1,2 @@
+catkin_simple:linemod:object_recognition_core:object_recognition_msgs:object_recognition_ros:object_recognition_ros_visualization:ork_renderer:pcl_recognition:reconstruction:ros_astra_camera:tabletop:tod:transparent_objects
+-DCATKIN_DEVEL_PREFIX=/home/victor/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/victor/catkin_ws/install -G Unix Makefiles
